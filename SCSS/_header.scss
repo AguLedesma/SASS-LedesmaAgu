@@ -1,0 +1,32 @@
+.header {
+    img{
+        text-align: center;
+        border-radius: 50%;
+        border: #a52364 5px solid;
+        &:hover{
+            border: purple 8px solid;
+        }
+    }
+    grid-area: header;
+    background-color: $fondo_colorSass;
+    text-align: center;
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    nav ul{
+        display: flex;
+        list-style: none;
+        padding: 5px;
+        list-style-type: none;
+        li{
+            padding: 5px;
+            border-radius: 10px;
+            border: #a52364 solid 3px;
+            margin: 5px;
+            background-color: #c05389d5;
+            text-decoration: none;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+          }
+      }
